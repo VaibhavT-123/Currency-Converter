@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #299afdce 0%, #00f1fe8d 100%);
+}
+
+.container {
+    background-color: #ffffff46;
+    padding: 1.5rem;
+    border-radius: 5px;
+    max-height: max-content;
+    width: 40vh;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select, input, button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.amount {
+    display: flex;
+}
+
+.amount p {
+    width: 60%;
+    font-weight: 600;
+}
+
+.select-container img {
+    max-width: 2.25rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative; 
+}
+
+.select-container select {
+    font-size: 1rem;
+    height: 2.5rem;
+    width: auto;
+}
+
+.dropdown i {
+    font-size: 1.59rem;
+    color: #058bf9;
+    margin-top: 1rem;
+}
+
+.msg {
+    margin-bottom: 2rem;
+}
+
+form button {
+    height: 2.5rem;
+    font-size: 1.16rem;
+    background-color: #0a6cec26;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #07b5f521;
+}
